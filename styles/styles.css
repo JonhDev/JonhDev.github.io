@@ -1,0 +1,50 @@
+@font-face{
+    font-family: "Cool";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../resources/fonts/cool.ttf") format("truetype"), url("/resources/fonts/cool.otf") format("opentype");
+}
+nav img{
+    display: block;
+    margin-left: 30px;
+    margin-top: 5px;
+    float: left;
+    height: 30px;
+    width: 140px;
+}
+
+nav {
+    position : absolute;
+    left : 0;
+    width : 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari*/
+    background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);/*Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #E3E3E3);/*Opera*/
+    background-image: linear-gradient(top, #FFF, #E3E3E3);
+    }
+    nav ul {
+    margin : 0 auto;
+    width : 940px;
+    list-style : none;
+    }
+    nav ul li {
+    float : left;
+    }
+    nav ul li a {
+    display : block;
+    margin-right : 20px;
+    width : 140px;
+    font-size : 18px;
+    font-family: Cool;
+    font-style: bold;
+    line-height : 44px;
+    text-align : center;
+    text-decoration : none;
+    color : #000000;
+    }
+    nav ul li a:hover {
+    color : #fff;
+    }
+    nav ul li.selected a {
+    color : #fff;
+    }
