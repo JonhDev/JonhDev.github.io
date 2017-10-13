@@ -17,10 +17,10 @@ nav {
     position : absolute;
     left : 0;
     width : 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari*/
-    background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);/*Firefox*/
-    background-image: -o-linear-gradient(top, #FFF, #E3E3E3);/*Opera*/
-    background-image: linear-gradient(top, #FFF, #E3E3E3);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3896D1), to( #196699));/*Chrome y Safari*/
+    background-image: -moz-linear-gradient(top center, #3896D1, #196699);/*Firefox*/
+    background-image: -o-linear-gradient(top, #3896D1, #196699);/*Opera*/
+    background-image: linear-gradient(top, #3896D1, #196699);
     }
     nav ul {
     margin : 0 auto;
@@ -32,18 +32,32 @@ nav {
     }
     nav ul li a {
     display : block;
+    position: relative;
+    left: 15px;
     margin-right : 20px;
     width : 140px;
     font-size : 18px;
-    font-family: Cool;
+    font-family: Candara;
     font-style: bold;
     line-height : 44px;
     text-align : center;
     text-decoration : none;
-    color : #000000;
+    color : #FFFFFF;
     }
+    nav ul li img {
+        display : block;
+        position: relative;
+        align-content: center;
+        margin-right : 20px;
+        width : 140px;
+        line-height : 44px;
+        }
     nav ul li a:hover {
-    color : #fff;
+        background: #0A4366;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#296B94), to( #0A4366));/*Chrome y Safari*/
+        background-image: -moz-linear-gradient(top center, #296B94, #0A4366);/*Firefox*/
+        background-image: -o-linear-gradient(top, #296B94, #0A4366);/*Opera*/
+        background-image: linear-gradient(top, #296B94, #0A4366);
     }
     nav ul li.selected a {
     color : #fff;
